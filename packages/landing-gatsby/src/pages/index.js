@@ -1,57 +1,45 @@
 import React, { Fragment } from 'react';
 import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
-import { Modal } from '@redq/reuse-modal';
-import { agencyTheme } from 'common/src/theme/agency';
+import { rideTheme } from 'common/src/theme/ride';
 import { ResetCSS } from 'common/src/assets/css/style';
-import { GlobalStyle, AgencyWrapper } from '../containers/Agency/agency.style';
-import Navbar from '../containers/Agency/Navbar';
-import BannerSection from '../containers/Agency/BannerSection';
-import FeatureSection from '../containers/Agency/FeatureSection';
-import AboutUsSection from '../containers/Agency/AboutUsSection';
-import WorkHistory from '../containers/Agency/WorkHistory';
-import BlogSection from '../containers/Agency/BlogSection';
-import TestimonialSection from '../containers/Agency/TestimonialSection';
-import TeamSection from '../containers/Agency/TeamSection';
-import VideoSection from '../containers/Agency/VideoSection';
-import FaqSection from '../containers/Agency/FaqSection';
-import NewsletterSection from '../containers/Agency/NewsletterSection';
-import QualitySection from '../containers/Agency/QualitySection';
-import Footer from '../containers/Agency/Footer';
+import { GlobalStyle, ContentWrapper } from '../containers/Ride/ride.style';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
-import '@redq/reuse-modal/es/index.css';
+import Navbar from '../containers/Ride/Navbar';
+import Banner from '../containers/Ride/Banner';
+import RideOption from '../containers/Ride/RideOption';
+import LocationSection from '../containers/Ride/LocationSelection';
+import FeatureSection from '../containers/Ride/Feature';
+import LatestNewsSection from '../containers/Ride/LatestNews';
+import HowItWorkSection from '../containers/Ride/HowItWorks';
+import TestimonialSection from '../containers/Ride/TestimonialSection';
+import FeatureSlider from '../containers/Ride/FeatureSlider';
+import Footer from '../containers/Ride/Footer';
 import SEO from '../components/seo';
 
 export default () => {
   return (
-    <ThemeProvider theme={agencyTheme}>
+    <ThemeProvider theme={rideTheme}>
       <Fragment>
-        <SEO title="Agency" />
-        <Modal />
+        <SEO title="Ride | A react next landing page" />
         <ResetCSS />
         <GlobalStyle />
-        {/* End of agency head section */}
-        {/* Start agency wrapper section */}
-        <AgencyWrapper>
+        <ContentWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
           </Sticky>
-          <BannerSection />
+          <Banner />
+          <RideOption />
+          <LocationSection />
+          <FeatureSlider />
           <FeatureSection />
-          <AboutUsSection />
-          <WorkHistory />
-          <BlogSection />
-          <QualitySection />
-          <VideoSection />
+          <LatestNewsSection />
+          <HowItWorkSection />
           <TestimonialSection />
-          <TeamSection />
-          <FaqSection />
-          <NewsletterSection />
           <Footer />
-        </AgencyWrapper>
-        {/* End of agency wrapper section */}
+        </ContentWrapper>
       </Fragment>
     </ThemeProvider>
   );
