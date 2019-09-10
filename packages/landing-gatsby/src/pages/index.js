@@ -50,7 +50,7 @@ export default () => {
             <FeatureSection />
             <BranchSection />
             <WorkUserSection />
-            <WorkUserSection />
+            <WorkHostSection />
             <MilestoneBlock />
             <HumanityBlock />
             <PromotionBlock />
