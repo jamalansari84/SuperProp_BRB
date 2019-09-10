@@ -28,7 +28,6 @@ import {
   ContentWrapper,
 } from '../containers/Charity/charity.style';
 import SEO from '../components/seo';
-import WorkUserSection from '../containers/Charity/WorkUserSection';
 
 export default () => {
   return (
