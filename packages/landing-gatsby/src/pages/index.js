@@ -11,7 +11,8 @@ import RideOption from '../containers/Ride/RideOption';
 import BannerSection from '../containers/Charity/BannerSection';
 import FeatureSection from '../containers/Charity/FeatureSection';
 import BranchSection from '../containers/Charity/BranchSection';
-import WorkSection from '../containers/Charity/WorkSection';
+import WorkUserSection from '../containers/Charity/WorkUserSection';
+import WorkHostSection from '../containers/Charity/WorkHostSection';
 import MilestoneBlock from '../containers/Charity/MilestoneBlock';
 import HumanityBlock from '../containers/Charity/HumanityBlock';
 import PromotionBlock from '../containers/Charity/PromotionBlock';
@@ -27,6 +28,7 @@ import {
   ContentWrapper,
 } from '../containers/Charity/charity.style';
 import SEO from '../components/seo';
+import WorkUserSection from '../containers/Charity/WorkUserSection';
 
 export default () => {
   return (
@@ -48,7 +50,8 @@ export default () => {
             <RideOption />
             <FeatureSection />
             <BranchSection />
-            <WorkSection />
+            <WorkUserSection />
+            <WorkUserSection />
             <MilestoneBlock />
             <HumanityBlock />
             <PromotionBlock />
