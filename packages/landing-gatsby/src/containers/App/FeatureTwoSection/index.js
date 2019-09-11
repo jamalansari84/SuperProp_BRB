@@ -6,7 +6,7 @@ import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
-import FeatureTwoSection from './FeatureTwoSection.style';
+import FeatureTwoSectionWrapper from './FeatureTwoSection.style';
 
 const FeatureTwoSection = ({
   row,
@@ -34,7 +34,7 @@ const FeatureTwoSection = ({
   `);
 
   return (
-    <FeatureSectionTwoWrapper id="services2">
+    <FeatureTwoSectionWrapper id="services2">
       <Container>
         <Box {...sectionHeader}>
           <Text {...sectionSubTitle} />
