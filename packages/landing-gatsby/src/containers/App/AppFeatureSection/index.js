@@ -73,7 +73,7 @@ FeatureSection.propTypes = {
 };
 
 // FeatureSection default style
-FeatureSection.defaultProps = {
+AppFeatureSection.defaultProps = {
   // section header default style
   sectionHeader: {
     mb: ['30px', '30px', '30px', '56px'],
