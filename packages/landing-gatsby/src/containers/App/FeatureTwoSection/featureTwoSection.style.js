@@ -96,4 +96,4 @@ const AppFeatureSectionWrapper = styled.section`
   }
 `;
 
-export default AppFeatureSectionWrapper;
+export default FeatureTwoSectionWrapper;
