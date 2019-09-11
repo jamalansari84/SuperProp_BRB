@@ -6,9 +6,9 @@ import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
-import AppFeatureSection from './AppFeatureSection.style';
+import FeatureTwoSection from './FeatureTwoSection.style';
 
-const AppFeatureSection = ({
+const FeatureTwoSection = ({
   row,
   col,
   sectionHeader,
@@ -34,7 +34,7 @@ const AppFeatureSection = ({
   `);
 
   return (
-    <AppFeatureSection id="services">
+    <FeatureSection id="services">
       <Container>
         <Box {...sectionHeader}>
           <Text {...sectionSubTitle} />
@@ -57,12 +57,12 @@ const AppFeatureSection = ({
           ))}
         </Box>
       </Container>
-    </AppFeatureSectionWrapper>
+    </FeatureTwoSectionWrapper>
   );
 };
 
 // FeatureSection style props
-FeatureSection.propTypes = {
+FeatureTwpSection.propTypes = {
   sectionHeader: PropTypes.object,
   row: PropTypes.object,
   col: PropTypes.object,
@@ -73,7 +73,7 @@ FeatureSection.propTypes = {
 };
 
 // FeatureSection default style
-AppFeatureSection.defaultProps = {
+FeatureTwoSection.defaultProps = {
   // section header default style
   sectionHeader: {
     mb: ['30px', '30px', '30px', '56px'],
@@ -150,4 +150,4 @@ AppFeatureSection.defaultProps = {
   },
 };
 
-export default AppFeatureSection;
+export default FeatureTwoSection;
