@@ -9,11 +9,12 @@ import DrawerSection from '../containers/Charity/DrawerSection';
 import RideOption from '../containers/Ride/RideOption';
 
 import BannerSection from '../containers/Charity/BannerSection';
-import FeatureSection from '../containers/Charity/FeatureSection';
+import FeatureSection from '../containers/App/FeatureTwoSection';
+
 import BranchSection from '../containers/Charity/BranchSection';
 import WorkUserSection from '../containers/Charity/WorkUserSection';
 import WorkHostSection from '../containers/Charity/WorkHostSection';
-import AppFeatureSection from  '../containers/App/AppFeatureSection';
+import AppFeatureSection from  '../containers/App/FeatureTwoSection';
 import MilestoneBlock from '../containers/Charity/MilestoneBlock';
 import HumanityBlock from '../containers/Charity/HumanityBlock';
 import PromotionBlock from '../containers/Charity/PromotionBlock';

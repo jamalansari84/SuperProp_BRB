@@ -62,7 +62,7 @@ const FeatureTwoSection = ({
 };
 
 // FeatureSection style props
-FeatureTwpSection.propTypes = {
+FeatureTwoSection.propTypes = {
   sectionHeader: PropTypes.object,
   row: PropTypes.object,
   col: PropTypes.object,
