@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const FeatureAppSectionWrapper = styled.section`
+const FeatureTwoSectionWrapper = styled.section`
   padding: 80px 0 100px;
   @media (max-width: 1440px) {
     padding: 40px 0 50px;
