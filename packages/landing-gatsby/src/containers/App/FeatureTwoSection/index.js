@@ -6,7 +6,7 @@ import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
-import FeatureTwoSectionWrapper from './FeatureTwoSection.style';
+import FeatureTwoSectionWrapper from './featureTwoSection.style';
 
 const FeatureTwoSection = ({
   row,
