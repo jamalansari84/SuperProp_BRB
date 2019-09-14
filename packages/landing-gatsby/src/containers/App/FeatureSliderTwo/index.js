@@ -8,9 +8,9 @@ import Heading from 'reusecore/src/elements/Heading';
 import Image from 'reusecore/src/elements/Image';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
-import FeatureSectionTwoWrapper from './featureSliderTwo.style';
+import FeatureAppSectionTwoWrapper from './featureSliderTwo.style';
 
-const FeatureSection = ({
+const FeatureAppSection = ({
   row,
   col,
   sectionHeader,
@@ -36,7 +36,7 @@ const FeatureSection = ({
   `);
 
   return (
-    <FeatureSectionTwoWrapper id="keyfeatures">
+    <FeatureAppSectionTwoWrapper id="keyfeatures">
       <Container>
         <Box {...sectionHeader}>
           <Text {...sectionSubTitle} />
@@ -60,12 +60,12 @@ const FeatureSection = ({
           ))}
         </Box>
       </Container>
-    </FeatureSectionTwoWrapper>
+    </FeatureAppSectionTwoWrapper>
   );
 };
 
-// FeatureSection style props
-FeatureSection.propTypes = {
+// FeatureAppSection style props
+FeatureAppSection.propTypes = {
   sectionHeader: PropTypes.object,
   row: PropTypes.object,
   col: PropTypes.object,
@@ -75,8 +75,8 @@ FeatureSection.propTypes = {
   featureDescription: PropTypes.object,
 };
 
-// FeatureSection default style
-FeatureSection.defaultProps = {
+// FeatureAppSection default style
+FeatureAppSection.defaultProps = {
   // section header default style
   sectionHeader: {
     mb: ['56px', '56px'],
@@ -152,4 +152,4 @@ FeatureSection.defaultProps = {
   },
 };
 
-export default FeatureSection;
+export default FeatureAppSection;

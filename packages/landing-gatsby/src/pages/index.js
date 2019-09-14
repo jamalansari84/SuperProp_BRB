@@ -14,7 +14,7 @@ import FeatureSection from '../containers/App/FeatureTwoSection';
 import BranchSection from '../containers/Charity/BranchSection';
 import WorkUserSection from '../containers/Charity/WorkUserSection';
 import WorkHostSection from '../containers/Charity/WorkHostSection';
-import FeatureAppSection from  '../containers/App/FeatureTwoSection';
+import FeatureAppSection from  '../containers/App/FeatureSectionTwo';
 import MilestoneBlock from '../containers/Charity/MilestoneBlock';
 import HumanityBlock from '../containers/Charity/HumanityBlock';
 import PromotionBlock from '../containers/Charity/PromotionBlock';

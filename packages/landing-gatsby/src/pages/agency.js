@@ -7,7 +7,7 @@ import { ResetCSS } from 'common/src/assets/css/style';
 import { GlobalStyle, AgencyWrapper } from '../containers/Agency/agency.style';
 import Navbar from '../containers/Agency/Navbar';
 import BannerSection from '../containers/Agency/BannerSection';
-import FeatureSection from '../containers/Agency/FeatureSection';
+import FeatureAppSection from '../containers/Agency/FeatureAppSection';
 import AboutUsSection from '../containers/Agency/AboutUsSection';
 import WorkHistory from '../containers/Agency/WorkHistory';
 import BlogSection from '../containers/Agency/BlogSection';
@@ -39,7 +39,7 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
-          <FeatureSection />
+          <FeatureAppSection />
           <AboutUsSection />
           <WorkHistory />
           <BlogSection />
