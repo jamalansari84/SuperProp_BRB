@@ -34,7 +34,7 @@ const FeatureTwoSection = ({
   `);
 
   return (
-    <FeatureTwoSectionWrapper id="services2">
+    <FeatureTwoSectionWrapper id="FeatureSection">
       <Container>
         <Box {...sectionHeader}>
           <Text {...sectionSubTitle} />
