@@ -27,6 +27,8 @@ module.exports = {
       },
     },
     `gatsby-transformer-json`,
+    `gatsby-plugin-mdx`,
+    'gatsby-theme-mdx-deck',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
